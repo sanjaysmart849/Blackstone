@@ -1,0 +1,68 @@
+.about-section {
+  background: #090909;
+}
+
+.about-grid {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+}
+
+.about-media {
+  min-height: 420px;
+  border-radius: 28px;
+  background-image: url('/images/img1.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.22), rgba(0.22, 0, 0, 0.22));
+}
+
+.about-copy {
+  max-width: 620px;
+}
+
+.about-copy h2 {
+  margin: 0 0 1.4rem;
+  font-size: clamp(2.2rem, 3.5vw, 3.8rem);
+}
+
+.about-copy p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.85;
+  margin-bottom: 2rem;
+}
+
+.about-cards {
+  display: grid;
+  gap: 18px;
+}
+
+.about-cards article {
+  background: #000;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 22px;
+  padding: 24px;
+}
+
+.about-cards h3 {
+  margin: 0 0 0.5rem;
+}
+
+.about-cards p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+@media (min-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1.05fr 1fr;
+  }
+}
