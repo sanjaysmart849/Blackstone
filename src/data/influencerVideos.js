@@ -8,5 +8,5 @@ export const videos = [
 
   { id: 7, title: 'Food vlog', thumbnail: '/videos/thumbnail/influencers/palaya.png', videoUrl: "https://res.cloudinary.com/dfcfolnxk/video/upload/v1777412725/Palya_Kanji_Final_kdg5ap.mp4" },
   { id: 8, title: 'Personal Branding', thumbnail: '/videos/thumbnail/influencers/suja.png', videoUrl: "https://res.cloudinary.com/dfcfolnxk/video/upload/v1777412797/Final_Out_bowo7x.mp4" },
-  { id: 9, title: 'Bridal Reels', thumbnail:'/videos/thumbnail/influencers/yazhini.png', videoUrl: "https://res.cloudinary.com/dfcfolnxk/video/upload/v1777412746/Yazhini_Sis_Bridal_ray5yi.mp4" }, 
+  { id: 9, title: 'Bridal Reels', thumbnail:'/videos/thumbnail/influencers/yazhini.png', videoUrl: "https://res.cloudinary.com/dfcfolnxk/video/upload/v1777412746/Yazhini_Sis_Bridal_ray5yi.mp4" }
 ];
