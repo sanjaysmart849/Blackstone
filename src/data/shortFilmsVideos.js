@@ -1,5 +1,5 @@
 export const videos = [
-  { id: 1, title: 'Urban Stories', thumbnail: '/videos/short-film-1.jpg', videoUrl: '/videos/short-film-1.mp4' },
+  { id: 1, title: 'Fourth Loading', thumbnail: '/thumbnail/ShortsFlims/ShortFlim1.png', videoUrl: 'https://res.cloudinary.com/dfcfolnxk/video/upload/v1780843133/Out_rl22gy.mp4' },
   { id: 2, title: 'Documentary Clip', thumbnail: '/videos/short-film-2.jpg', videoUrl: '/videos/short-film-2.mp4' },
   { id: 3, title: 'Love Story', thumbnail: '/videos/short-film-3.jpg', videoUrl: '/videos/short-film-3.mp4' },
   { id: 4, title: 'Adventure Tale', thumbnail: '/videos/short-film-4.jpg', videoUrl: '/videos/short-film-4.mp4' },
