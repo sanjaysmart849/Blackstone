@@ -6,7 +6,8 @@ export default function Home() {
       <div className="hero-gradient" />
       <div className="hero-content">
         <p className="eyebrow">Cinematic Storytelling</p>
-        <h1>Black Stones Production House</h1>
+        <h1>Black Stones </h1>
+         <h1> Production House</h1>
         <p className="hero-copy">We create visual stories that matter.</p>
         <a className="hero-cta" href="#services">
           Explore Services
